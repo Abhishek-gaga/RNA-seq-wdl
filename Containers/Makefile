@@ -1,5 +1,5 @@
 IMAGE_NAME = bacterial-rnaseq-umi:1.0.0
-VERSION = v1.0.0
+VERSION = 1.0.0
 TAG1 = Abhishek-gaga/$(IMAGE_NAME):$(VERSION)
 TAG2 = Abhishek-gaga/$(IMAGE_NAME):latest
 
