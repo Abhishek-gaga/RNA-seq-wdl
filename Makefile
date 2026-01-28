@@ -1,4 +1,4 @@
-IMAGE_NAME = bacterial-RNA-seq-workflow
+IMAGE_NAME = bacterial-rnaseq-umi
 VERSION := $(shell cat .VERSION)
 TAG1 = Abhishek-gaga/$(IMAGE_NAME):$(VERSION)
 TAG2 = Abhishek-gaga/$(IMAGE_NAME):latest
