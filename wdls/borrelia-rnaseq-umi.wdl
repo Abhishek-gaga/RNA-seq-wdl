@@ -246,7 +246,7 @@ task BamToFastqWithUMI {
   }
 
   runtime {
-    docker: "yourdockerhub/bacterial-rnaseq-umi:1.0.0"
+    docker: "Abhishek-gaga/bacterial-rnaseq-umi:latest"
     cpu: threads
     memory: "~{memory_gb} GB"
     disks: "local-disk ~{disk_gb} HDD"
@@ -276,7 +276,7 @@ task FastQC {
   }
 
   runtime {
-    docker: "yourdockerhub/bacterial-rnaseq-umi:1.0.0"
+    docker: "Abhishek-gaga/bacterial-rnaseq-umi:latest"
     cpu: threads
     memory: "~{memory_gb} GB"
     disks: "local-disk ~{disk_gb} HDD"
@@ -326,7 +326,7 @@ EOF
   }
 
   runtime {
-    docker: "yourdockerhub/bacterial-rnaseq-umi:1.0.0"
+    docker: "Abhishek-gaga/bacterial-rnaseq-umi:latest"
     cpu: threads
     memory: "~{memory_gb} GB"
     disks: "local-disk ~{disk_gb} HDD"
@@ -365,7 +365,7 @@ task Bowtie2Align {
   }
 
   runtime {
-    docker: "yourdockerhub/bacterial-rnaseq-umi:1.0.0"
+    docker: "Abhishek-gaga/bacterial-rnaseq-umi:latest"
     cpu: threads
     memory: "~{memory_gb} GB"
     disks: "local-disk ~{disk_gb} HDD"
@@ -403,7 +403,7 @@ task UmiToolsTagFromReadID {
   }
 
   runtime {
-    docker: "yourdockerhub/bacterial-rnaseq-umi:1.0.0"
+    docker: "Abhishek-gaga/bacterial-rnaseq-umi:latest"
     cpu: 2
     memory: "~{memory_gb} GB"
     disks: "local-disk ~{disk_gb} HDD"
@@ -438,7 +438,7 @@ task UmiToolsDedup {
   }
 
   runtime {
-    docker: "yourdockerhub/bacterial-rnaseq-umi:1.0.0"
+    docker: "Abhishek-gaga/bacterial-rnaseq-umi:latest"
     cpu: 2
     memory: "~{memory_gb} GB"
     disks: "local-disk ~{disk_gb} HDD"
@@ -477,7 +477,7 @@ task FeatureCounts {
   }
 
   runtime {
-    docker: "yourdockerhub/bacterial-rnaseq-umi:1.0.0"
+    docker: "Abhishek-gaga/bacterial-rnaseq-umi:latest"
     cpu: threads
     memory: "~{memory_gb} GB"
     disks: "local-disk ~{disk_gb} HDD"
@@ -510,7 +510,7 @@ task MultiQC {
   }
 
   runtime {
-    docker: "yourdockerhub/bacterial-rnaseq-umi:1.0.0"
+    docker: "Abhishek-gaga/bacterial-rnaseq-umi:latest"
     cpu: 1
     memory: "~{memory_gb} GB"
     disks: "local-disk ~{disk_gb} HDD"
